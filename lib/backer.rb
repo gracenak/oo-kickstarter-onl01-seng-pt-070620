@@ -8,8 +8,8 @@ class Backer
   end
   
   def back_project
-    projects.select do |project|
-      project.backer == self
+    Project.select do |project|
+      backed_projects == self
     end
     
 
