@@ -10,7 +10,7 @@ class Backer
   end
   
   def back_project(project)
-    Project.select do |project|
+    Project.each do |project|
       @backed_projects << project
     end
   end
