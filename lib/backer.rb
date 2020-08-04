@@ -8,13 +8,9 @@ class Backer
   end
   
   def back_project(project)
-    Project.select do |project|
-      backed_projects == self
+    Projects.all.select do |project|
+      project.backer == self
     end
-    
-
-    
-    
   end
   
 end
