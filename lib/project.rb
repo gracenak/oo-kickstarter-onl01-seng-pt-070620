@@ -11,5 +11,4 @@ class Project
     backer.project = self
   end
       
-  end
 end
