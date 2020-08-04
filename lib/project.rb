@@ -8,7 +8,7 @@ class Project
   end
   
   def add_backer(backer)
-    @backers << backer
-    backer.project = self
+    backers.each do |Backer|
+      
   end
 end
