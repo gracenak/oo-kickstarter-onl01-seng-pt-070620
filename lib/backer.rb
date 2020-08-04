@@ -12,6 +12,8 @@ class Backer
       project.backer == self
     end
     
+
+    
     
   end
   
